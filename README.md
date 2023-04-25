@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  HardHacker Theme for Sublime Text
+  HardHacker Theme for Alacritty
 </h1>
 
 ![screenshot](screenshot.png)
@@ -11,9 +11,12 @@
 ## Install using Git
 
 ```shell
-git clone https://github.com/hardhackerlabs/theme-sublime.git
+git clone https://github.com/hardhackerlabs/theme-alacritty.git
 ```
 
-Install theme by Open the Sublime Text, Preferences -> Browse Packages, Copy the Hardhacker.sublime-color-scheme to folder.
+Import theme to `~/.config/alacritty/alacritty.yml`.
 
-Go to Preferences -> Color Scheme -> User and select the Hardhacker Color Scheme to Activate it.
+```yml
+import:
+  - /path/to/hardhacker.yml
+```
